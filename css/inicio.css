@@ -1,0 +1,442 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Style the header */
+header {
+    display: block;
+    background-image: url("../img/bn3.jpg");
+    filter: opacity(90%);
+    padding: 15px;
+    text-align: center;
+    background-position: center center;
+
+    color: #ffffff;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 5px 5px  10px #000000;
+    font-family: "Arial";
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /*border: 5px solid #000000;*/
+    border-radius: 0px 0px;
+
+
+}
+
+
+
+body {
+    margin: 0%;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Arial"
+}
+
+
+aside {
+    float: right;
+    width: 20%;
+    height: 700px; /* only for demonstration, should be removed */
+    background-color: rgba(14, 14, 14, 0.09);
+    filter: opacity(95%);
+    border: 0px solid #000000;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+article {
+    float: left;
+    padding: 0px;
+    width: 80%;
+
+    }
+
+.ppal{
+    height: 700px;
+    width: 80%;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+   }
+
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #000000;
+    /*filter: opacity(85%);*/
+    padding: 5px;
+    color: Black;
+    color: #ffffff;
+    width: 100%;
+    }
+
+
+p {
+    margin: 10px;
+    text-align: justify;
+    font-size: 80%
+}
+
+p1 {
+    margin: 9px;
+    text-align: justify;
+    color: #000000;
+    font-size: 20px;
+}
+.p2
+{
+    margin: 9px;
+    text-align: justify;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: #3c8001;
+    font-family: "Arial"
+}
+.k1 {
+    color: darkcyan;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Arial" ;
+    padding: 0px 0px;
+    border: white 5px solid
+}
+
+
+h2 {
+    color: #323030;
+    font-family: "Arial";
+    margin-left: 10px;
+    font-weight: bold;
+    display:inline;
+}
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+hgroup{
+
+}
+h1 {
+    font-size: 40px;
+
+    display:inline-block;
+    text-shadow: #747070 1px 1px 10px;
+
+
+}
+h5 {
+    text-align: left;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    aside, article, div, header, footer, body, section{
+        width: 100%;
+        height: auto;
+    }
+}
+#arriba{
+    border-radius: 1px;
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    color: #666864;
+    line-height : 10px;
+}
+
+
+#columna1 {
+    display: flow;
+    width: 45%;
+    height: 100%;
+    float: left;
+    font-size: 100%;
+    margin-left: 20px;
+}
+#columna2 {
+    display: flow;
+    width: 45%;
+    height: 100%;
+    float: right;
+    background-color: rgba(177, 182, 179, 0.24);
+    font-size: 100%;
+    margin-right: 20px;
+
+}
+
+#columna3 {
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+#columna4 {
+    display: flow;
+    padding: 0%;
+    font-size: 100%;
+    background-color: #ffffff;
+    margin: 0%;
+    text-decoration: none;
+    color: #000000;
+    float: left;
+    width: 55%;
+    border-radius: 0px;
+    line-height : 1px;
+}
+#columna5 {
+    display: block;
+    border-radius: 0px;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 0%;
+    font-size: 100%;
+    background-color: #ffffff;
+    text-align: right;
+    text-decoration: none;
+    color: #000000;
+    float: right;
+    width: 40%;
+    height: 100%;
+    line-height : 15px;
+}
+#columna6{
+    float: left;
+    width: 50%;
+
+
+}
+#columna7{
+    float: right;
+    width: 50%;
+
+}
+#columna8{
+    width: 70%;
+    text-align: center;
+    display: block;
+
+    background-position: center center;
+
+    color: #000000;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Arial";
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#mapa {
+    margin: auto;
+    height:500px;
+    width: 100%;
+    position:relative;
+    top:0%;
+    left:0%;
+}
+
+.imgRedonda {
+    float:right;
+    border-radius:180px;
+    border:10px solid white;
+    width:35%
+}
+
+.imgCentrada {
+    text-align: center;
+    border-radius:180px;
+    border:10px solid white;
+    width:35%
+}
+
+.imgLogo {
+    float:left;
+    width:10%
+}
+.imgLogo1 {
+    float:left;
+    width:40%;
+}
+.imgLogo2 {
+    float:right;
+    width:200px;
+    border:10px solid white;
+}
+.imgLogo3 {
+    width:3%;
+
+}
+.imgpie {
+    width:2%;
+}
+.left{
+    text-align: left;
+    float: left;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+    float: right;
+}
+
+.floatright{
+    float: right;
+}
+.img_isnos{
+    display: block;
+    margin-left: 10px;
+    margin-right: 20px;
+    border: 5px solid #000000;
+    text-align: left;
+}
+
+
+.img_sa{
+    height: 100px;
+}
+
+.linea {
+    border-top: 3px solid #b8e80a;
+    height: 2px;
+    max-width: 30%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+
+.linea2 {
+    border-top: 3px solid #ec870b;
+    height: 2px;
+    max-width: 30%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+
+
+
+/* imagenes de servicios */
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #ffffff;
+
+
+}
+.imgcontenedor{
+    height: 200px;
+    width: 300px;
+    opacity: 40%;
+    border: 10px solid #ffffff;
+    border-radius: 5px 5px ;
+}
+
+.imgdibujo{
+    height: 250px;
+}
+.imgapi{
+    width: 90%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px 0px;
+    top:0%;
+    left:0%;
+}
+
+.leftsvg{
+    float: right;
+    height: 400px;
+}
+
+.vertical-menu {
+    width: 100%; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: rgba(255, 255, 255, 0.99); /* Grey background color */
+    color: #000000; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 7px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    filter: opacity(95%);
+    text-align: center;
+    /*border: 0.1em solid rgba(222, 133, 57, 0.8);
+*/
+    border-left: 2px solid rgba(109, 109, 107, 0.75);
+}
+
+.vertical-menu a:hover {
+    background-color: rgba(184, 232, 10, 0.62); /* Dark grey background on mouse-over */
+    filter: opacity(95%);
+    font-weight: inherit;
+    color: #555050;
+    font-weight: bold ;
+  }
+
+/*
+.vertical-menu a.active {
+    background-color: #000000;
+    color: #db741d;
+    touch-action: double-tap-zoom;
+}
+*/
+.boton2{
+
+    background-color: #6a746b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    width: 80%;
+
+
+}
+.boton2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.anchoppal {
+
+}

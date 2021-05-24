@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  
+<Folder>  
+      <Placemark>
+          <Nombre>Estacion Universidad Nacional</Nombre>
+          <Tipo>Transporte</Tipo>
+          <Barrio>Belalcazar</Barrio>
+          <Point>
+          <coordinates>-74.0793498103242,4.637074178970498,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark>
+         <Nombre>SGC Servicio Geologico Colombiano</Nombre>
+          <Tipo> Institucional </Tipo>
+          <Barrio>Ciudad Universitaria</Barrio>
+          <Point>
+          <coordinates>-74.08006838852195,4.640982074422811,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark>
+          <Nombre>Loteria de Cundinamarca</Nombre>
+          <Tipo>Comercio</Tipo>
+          <Barrio>Belalcazar</Barrio>
+          <Point>
+          <coordinates>-74.07887256713353,4.6393551403250655,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark>
+          <Nombre>D1</Nombre>
+          <Tipo>Comercio</Tipo>
+          <Barrio>Belalcazar</Barrio>
+          <Point>
+          <coordinates>-74.07881456207605,4.639982602883665,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark>
+          <Nombre>Parqueadero IGAC</Nombre>
+          <Tipo>Institucional</Tipo>
+          <Barrio>Ciudad Universitaria</Barrio>
+          <Point>
+          <coordinates>-74.0798114507437,4.640248859729787,0</coordinates>
+          </Point>
+      </Placemark>
+</Folder>
+</kml>

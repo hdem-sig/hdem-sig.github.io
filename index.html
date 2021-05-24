@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>inicio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Hoja de vida, Especialización en SIG, Universidad Distrital, Harold de la Cruz"/>
+    <link rel="stylesheet" href="css/inicio.css">
+    <script src="js/ubkm.js"></script>
+    <link rel="shortcut icon" href="img/5.png" />
+</head>
+
+<body>
+<header>
+    <img class="imgLogo3" src="img/archaeology1.png" alt="">
+    <h1>Arqueología & SIG</h1>
+    <img class="imgLogo3" src="img/skull.png" alt="">
+</header>
+
+<section>
+    <aside>
+
+        <div class="vertical-menu">
+            <a target="contenido" href="html/servicios.html" class="active">Inicio</a>
+            <a target="contenido" href="html/hojadevida.html">Hoja de vida</a>
+            <a target="contenido" href="html/areasdeinteres.html">Áreas de interés</a>
+            <a target="contenido" href="xml/clientes.xml">Factura</a>
+            <a target="contenido" href="html/clientes.html">Clientes</a>
+            <a target="contenido" href="gml/IGAC.gml">IGAC GML</a>
+            <a target="contenido" href="kml/placemark.kml">Sitios KML</a>
+            <a target="contenido" href="html/svg.html">IGAC SVG</a>
+            <a target="contenido" href="html/mapadinamico.html">Mapa dinámico</a>
+        </div>
+        <br>
+        <div class="center">
+        <button class="boton2"  onclick="getLocation()">Mostrar posición</button>
+        </div>
+        <br>
+        <div class="center">
+        <img class="imgapi" src="https://maps.googleapis.com/maps/api/staticmap?center=4.627985334789602,-74.06570687188623&zoom=15&size=400x400&key=AIzaSyAWbOt_lnJqJoEbiA40KVfJ9xQQrVA-wOc&maptype=terrain&markers=color:green%7Clabel:U%7C4.627985334789602,-74.06570687188623" alt="lacuarenta" id="mapatest">
+        </div>
+    </aside>
+
+    <article class="ppal">
+        <iframe src="html/servicios.html" name="contenido" id="test"></iframe>
+    </article>
+
+</section>
+
+<footer class="right">
+    <p class="right">Contacto</p>
+    <a title="Gmail" href="mailto:hdelacruzmo@gmail.com?Subject=Hi%20mate" target="_top"><img class="imgpie" src="img/gmail.png"   alt="gmail"/></a>
+    <a title="Whatsapp" href="https://wa.me/573505228983"><img class="imgpie" src="img/whatsapp.png"   alt="wa"/></a>
+    <a title="Linkedin" href="https://www.linkedin.com/feed/"><img class="imgpie" src="img/linkedin.png"   alt="linkedin"/></a>
+</footer>
+
+</body>
+</html>

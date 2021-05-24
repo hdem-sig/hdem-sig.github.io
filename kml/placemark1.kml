@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+      <Nombre>Estacion Universidad Nacional</Nombre>
+      <Tipo>Transporte</Tipo>
+      <Barrio>Belalcazar</Barrio>
+      <Point>
+      <coordinates>-74.0793498103242,4.637074178970498,0</coordinates>
+     </Point>
+  </Placemark>
+</kml>

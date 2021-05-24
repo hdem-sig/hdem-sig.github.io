@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width= "1000" height="1300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(107, 109, 105);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(71, 73, 68);stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(158, 203, 210);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(139, 182, 233);stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(236, 221, 113);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(227, 180, 46);stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(146, 125, 65);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(186, 158, 233);stop-opacity:1" />
+        </linearGradient>
+
+    </defs>
+    <rect  x="0" y="0"   width="1000" height="1300" style="fill:rgb(255, 255, 255);stroke-width:3;stroke:rgb(0,0,0)" />
+    <polygon points=" 1,1 725,1 675,790 680,1300 1,1300 " fill="rgb(210, 212, 206) " />
+    <polygon points="500,340 580,340 550,640 370,620 400,390 480,400 " fill="url(#grad2)" />
+    <polygon points="370,670 540,690 520,900 430,900 440,730 365,720 " fill="url(#grad1)" />
+    <polygon points="550,1030 540,1220 310,1200 315,1130 430,1140 440,1020  " fill="url(#grad3)" />
+    <polygon points=" 450,20 640,30 610,300 420,280" fill="url(#grad1)" />
+    <polygon points=" 50,800 250,830 240,1000 40,980" fill="url(#grad4)" />
+    <polyline points="750,10 700,800 705,1290" style="fill:none;stroke:rgb(148, 151, 144);stroke-width:10" />
+    <polyline points="850,10 800,800 805,1290" style="fill:none;stroke:rgb(148, 151, 144);stroke-width:10" />
+    <polyline points=" 650,790 850,800" style="fill:none;stroke:rgb(127, 128, 125);stroke-width:5" />
+    <polyline points=" 756,899 755,797" style="fill:none;stroke:rgb(127, 128, 125);stroke-width:5" />
+
+    <rect  x="738" y="900"   width="40" height="280" style="fill:rgb(255,0,0);stroke-width:3;stroke:rgb(0,0,0)" />
+
+    <text x="230" y="150" fill="rgb(0,0,0)" font-size="46" font-weight="bold">Publicaciones y tienda</text>
+    <text x="420" y="1100" fill="rgb(0,0,0)" font-size="46"  font-weight="bold">CIAF</text>
+    <text x="50" y="920" fill="rgb(0,0,0)" font-size="46"  font-weight="bold">Agrología</text>
+    <text x="650" y="1000" fill="rgb(50,100,0)" font-size="50"  font-weight="bold">Universidad</text>
+    <text x="660" y="1050" fill="rgb(50,100,0)" font-size="50"  font-weight="bold"> Nacional</text>
+    <text x="220" y="520" fill="rgb(0,0,0)" font-size="46"  font-weight="bold"> Geografía y Cartografía</text>
+    <text x="400" y="820" fill="rgb(0,0,0)" font-size="46"  font-weight="bold"> Catastro</text>
+    <text x="0" y="410" fill="blue" transform="rotate(634 500,100)" font-size="46" font-weight="bold">Avenida NQS</text>
+</svg>
+

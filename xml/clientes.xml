@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<clientes periodo="2021" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="clientesxsd.xsd">
+    <cliente>
+      <nombre>Juan Manuel Fernandez</nombre>
+      <idetificacion>1030528974</idetificacion>
+      <telefono> 3528998554</telefono>
+      <servicio> Modelo de datos </servicio>
+      <fechaCompra> 2021-01-16</fechaCompra>
+      <valor> 7000000</valor>
+      <IVA> 0.19 </IVA>
+      <entregado>1</entregado>
+    </cliente>
+
+    <cliente>
+      <nombre>Carmenza Gomez</nombre>
+      <idetificacion>79854524</idetificacion>
+      <telefono> 3058759624</telefono>
+      <servicio> Seguimiento obra </servicio>
+      <fechaCompra> 2021-02-20 </fechaCompra>
+      <valor> 3000000</valor>
+      <IVA> 0.19 </IVA>
+      <entregado>1</entregado>
+    </cliente>
+
+    <cliente>
+      <nombre>Diego Castillo</nombre>
+      <idetificacion>85894561</idetificacion>
+      <telefono> 3058759624</telefono>
+      <servicio> Sobrevuelo Dron </servicio>
+      <fechaCompra> 2021-02-20 </fechaCompra>
+      <valor> 3000000</valor>
+      <IVA> 0.19 </IVA>
+      <entregado>1</entregado>
+    </cliente>
+ 
+    <cliente>
+      <nombre>Gonzalo Domingo</nombre>
+      <idetificacion>45896521</idetificacion>
+      <telefono> 3208725821</telefono>
+      <servicio> Arqueología preventiva</servicio>
+      <fechaCompra> 2021-02-25</fechaCompra>
+      <valor> 20000000</valor>
+      <IVA> 0.19 </IVA>
+      <entregado>1</entregado>
+    </cliente>
+
+    <cliente>
+      <nombre> Adolfo Bastida</nombre>
+      <idetificacion>125961121</idetificacion>
+      <telefono> 3158123456</telefono>
+      <servicio> Licenciamiento ambiental</servicio>
+      <fechaCompra> 2021-02-27 </fechaCompra>
+      <valor> 15000000</valor>
+      <IVA> 0.19 </IVA>
+      <entregado>1</entregado>
+    </cliente>
+
+    <cliente>
+      <nombre> Claudia Romero</nombre>
+      <idetificacion>362893121</idetificacion>
+      <telefono> 3005289647</telefono>
+      <servicio> Seguimiento obra</servicio>
+      <fechaCompra> 2021-02-28 </fechaCompra>
+      <valor> 5000000</valor>
+      <IVA> 0.19 </IVA>
+      <entregado>1</entregado>
+    </cliente>
+
+    <cliente>
+      <nombre> Insumos Agrícolas ltda</nombre>
+      <idetificacion>12458965-6</idetificacion>
+      <telefono> 316857213</telefono>
+      <servicio> Avalúo rural</servicio>
+      <fechaCompra> 2021-03-01 </fechaCompra>
+      <valor> 3000000</valor>
+      <IVA> 0.19 </IVA>
+      <entregado>1</entregado>
+    </cliente>
+
+    <cliente>
+      <nombre> Gabriel Rivera</nombre>
+      <idetificacion>604981244</idetificacion>
+      <telefono> 3206205891</telefono>
+      <servicio> Arqueología preventiva </servicio>
+      <fechaCompra> 2021-03-06 </fechaCompra>
+      <valor> 5000000</valor>
+      <IVA> 0.19 </IVA>
+      <entregado>0</entregado>
+    </cliente>
+
+    <cliente>
+      <nombre> Nelson Gutierrez</nombre>
+      <idetificacion>604981244</idetificacion>
+      <telefono> 3008732258</telefono>
+      <servicio> Auditoria </servicio>
+      <fechaCompra> 2021-03-06 </fechaCompra>
+      <valor> 2000000</valor>
+      <IVA> 0.19 </IVA>
+      <entregado>0</entregado>
+    </cliente>
+
+    <cliente>
+      <nombre> Alfredo Cano</nombre>
+      <idetificacion>604981244</idetificacion>
+      <telefono> 3298463255</telefono>
+      <servicio> Arqueología preventiva </servicio>
+      <fechaCompra> 2021-03-06 </fechaCompra>
+      <valor> 3000000</valor>
+      <IVA> 0.19 </IVA>
+      <entregado>0</entregado>
+    </cliente>
+
+
+</clientes>
