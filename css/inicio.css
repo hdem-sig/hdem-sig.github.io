@@ -7,9 +7,9 @@
 /* Style the header */
 header {
     display: block;
-    background-image: url("../img/bn3.jpg");
-    filter: opacity(90%);
-    padding: 15px;
+    background-image: url("../img/fondo.jpg");
+    filter: opacity(80%);
+    padding: 10px;
     text-align: center;
     background-position: center center;
 
@@ -82,10 +82,10 @@ section::after {
 
 /* Style the footer */
 footer {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.74);
     /*filter: opacity(85%);*/
     padding: 5px;
-    color: Black;
+    color: rgba(0, 0, 0, 0.57);
     color: #ffffff;
     width: 100%;
     }
@@ -141,10 +141,10 @@ hgroup{
 
 }
 h1 {
-    font-size: 40px;
+    font-size: 45px;
 
     display:inline-block;
-    text-shadow: #747070 1px 1px 10px;
+    text-shadow: #000000 1px 1px 10px;
 
 
 }
@@ -289,8 +289,15 @@ h5 {
 }
 .imgLogo3 {
     width:3%;
-
 }
+.imgLogo4 {
+    width:50px;
+}
+.imgLogo5 {
+    float:left;
+    width:40px;
+}
+
 .imgpie {
     width:2%;
 }
@@ -300,6 +307,13 @@ h5 {
 }
 .center{
     text-align: center;
+}
+.center1{
+    float: left;
+    text-align: left;
+    font-size: 5px;
+    display:inline-block;
+    text-shadow: #e5e5e5 1px 1px 10px;
 }
 .right{
     text-align: right;

@@ -39,7 +39,6 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    console.log(document.getElementById("test"));
     window.alert( "Hola. Sus coordenadas geográficas decimales son: \n\n " + "Latitud: "+ position.coords.latitude + "\n Longitud: " + position.coords.longitude + "\n\n Su posición está en un radio de : " + (position.coords.accuracy/2) + " metros, a partir de las coordenadas obtenidas" );
     document.getElementById("mapatest").src="https://maps.googleapis.com/maps/api/staticmap?center="+position.coords.latitude+","+position.coords.longitude+"&zoom=15&size=400x400&key=AIzaSyAWbOt_lnJqJoEbiA40KVfJ9xQQrVA-wOc&maptype=roadmap&format=png&markers=label:C|"+position.coords.latitude+","+position.coords.longitude;
 }
